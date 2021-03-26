@@ -1,0 +1,143 @@
+/*This stylesheet was created to handle all my screen sizes,
+to make the web pages responsive */
+
+
+@media(max-width: 900px) {
+    .enroll h1 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 812px) {
+    .navigation-links {
+        display: none;
+    }
+
+    .header .open-menu {
+        display: block;
+    }
+
+    .header .flex-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media(max-width: 750px) {
+    .global-camp .flex-container .col h1 {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+
+    .about-us .cen {
+        width: 100%;
+        padding: 10px;
+    }
+    .header {
+        min-height: 100vh;
+    }
+    
+    .world .flex-container .col1,
+    .world .flex-container .col2, 
+    .certificate .flex-container .col1,
+    .certificate .flex-container .col2,
+    .certificate .flex-container .col3{
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .certificate .flex-container .col2,
+    .certificate .flex-container .col3 {
+        margin-top: 25px;
+    }
+    
+    .world .flex-container,
+    .certificate .flex-container{
+        padding: 20px;
+    }
+
+    .world .flex-container .col1,
+    .world .flex-container .col2 {
+        margin: 10px;
+    }
+}
+
+@media(max-width: 450px) {
+    .header h1 {
+        font-size: 23px;
+    }
+    .container {
+        width: 100%;
+    }
+    .courses {
+        padding: 50px 10px;
+    }
+
+
+    .courses .flex-container {
+        flex-direction: column;
+    }
+
+    .global-camp {
+        padding: 5px;
+    }
+
+    .global-camp h1, .global-camp p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .global-camp .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .global-camp .flex-container .col {
+        flex-basis: 40%;
+    }
+    .facilities .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .facilities .flex-container .col {
+        flex-basis: 100%;
+    }
+    .facilities {
+        padding: 20px;
+    }
+
+    .comment {
+        padding: 10px;
+    }
+    .comment .flex-container {
+        flex-wrap: wrap;
+    }
+    .comment .flex-container .col {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+
+    .enroll {
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>courses</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="courses.css">
+        <link rel="stylesheet" href="mediaquery.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity=
+        "sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=
+        "anonymous" />
+    </head>
+
+    <body>
+        <section class="header">
+            <nav class="flex-container">
+                <div class="img1">
+                    <img src="logo.png" alt="logo">
+                </div>
+                <div class="navigation-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index2.html">About</a></li>
+                        <li><a href="index3.html">Course</a></li>
+                        <li><a href="index4.html">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="open-menu" onclick="OpenSideMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            
+             <div class="center">
+                 <div class="text-showcase">
+                     <h1>
+                         Our Courses
+                     </h1>
+                </div>
+             </div>
+         </section>
+
+         <section id="menu" class="side-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">About</a></li>
+                    <li><a href="index3.html">Course</a></li>
+                    <li><a href="index4.html">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+             <div class="close-menu">
+                 <ul>
+                     <li><a href="#" onclick="CloseSideMenu()">&times;</a></li>
+                 </ul>
+             </div>
+     </section>
+
+         <section class="courses">
+            <div class="container">
+                <h1>Courses We Offer</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+                <div class="flex-container">
+                    <div class="col1">
+                        <h1>Intermediate</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolorum dolorem culpa animi quasi eaque ullam magni 
+                            consequuntur omnis placeat voluptates! Architecto, 
+                            odio iusto minima 
+                        </p>
+                    </div>
+                    <div class="col2">
+                        <h1>Degree</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolorum dolorem culpa animi quasi eaque ullam magni 
+                            consequuntur omnis placeat voluptates! Architecto, 
+                            odio iusto minima 
+                        </p>
+                    </div>
+                    <div class="col3">
+                        <h1>Post Graduation</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolorum dolorem culpa animi quasi eaque ullam magni 
+                            consequuntur omnis placeat voluptates! Architecto, 
+                            odio iusto minima 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="facilities">
+            <div class="container">
+                <div class="heading">
+                    <div class="heading-text">
+                        <h1>Our Facilities</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div class="col">
+                        <img src="library.png" alt="library-image">
+                        <h1>World Class Library</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eligendi nam assumenda et at molestias.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="basketball.png" alt="basketball-image">
+                        <h1>Largest Play Ground</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eligendi nam assumenda et at molestias.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="cafeteria.png" alt="cafetaria-image">
+                        <h1>Tasty and Healthy Food</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eligendi nam assumenda et at molestias. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <footer class="about-us">
+            <div class="container">
+                <div class="cen">
+                   <h1>About Us</h1>
+                   <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique fugit dolorem obcaecati. 
+                       Temporibus sit possimus error necessitatibus aspernatur facilis natus, maiores rerum.
+                   </p>
+                   <nav class="icons">
+                      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                   </nav>
+                   <p>Designed For The Love Of Development</a></p>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function OpenSideMenu() {
+            document.getElementById('menu').style.width = '60%';
+        }
+
+        function CloseSideMenu() {
+            document.getElementById('menu').style.width = '0px';
+        }
+         </script>
+    </body>
+</html>

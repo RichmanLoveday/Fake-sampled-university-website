@@ -1,0 +1,118 @@
+.header {
+    min-height: 55vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
+}
+
+/*Style sheet for the certificate section*/
+.certificate {
+    margin-top: 50px;
+}
+
+.certificate .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.certificate .flex-container .col1,
+.certificate .flex-container .col2,
+.certificate .flex-container .col3 {
+    padding: 5px;
+}
+
+.certificate .flex-container .col1,
+.certificate .flex-container .col3 {
+    width: 65%;
+}
+
+.certificate .flex-container .col3 {
+    border: 1px solid lightgrey;
+}
+.certificate .flex-container .col2 {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.certificate .col2 h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: tomato;
+    color: #fff;
+}
+
+.certificate .col2 td {
+    font-weight: 700;
+    padding: 5px;
+    width: 100%;
+}
+
+.certificate .col1 .img {
+    width: 100%;
+    height: 480px;
+    background-image: url(certificate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.certificate .col1 img {
+    width: 100%;
+}
+
+.certificate .flex-container .col3 {
+    padding: 20px;
+}
+
+
+/*Style sheet for the form*/
+.my-form-container{
+    margin-top: 30px;
+    width: 65%;
+}
+
+
+.my-form-container input[type=text], 
+.my-form-container textarea,
+.my-form-container input[type=email] {
+   width: 100%;
+   display: inline-block;
+   margin-top: 20px;
+   padding: 10px;
+   outline: none;
+   resize: none;
+   background-color: rgb(241, 239, 239);
+   border: 0;
+   border-radius: 5px;
+}
+
+.my-form-container button {
+    border: 1px solid tomato;
+    margin-top: 10px;
+    margin-left: 17px;
+    color: tomato;
+    font-weight: 700;
+}
+
+.button::before {
+    background-color: tomato;
+    width: 15%;;
+    margin-left: -41px;   
+}
+
+.button::after {
+    background-color: tomato;
+    width: 15%;
+}
+
+.my-form-container form input:focus, 
+.my-form-container textarea:focus {
+    background-color: bisque;
+}
